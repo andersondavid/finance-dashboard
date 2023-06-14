@@ -1,0 +1,25 @@
+import React from "react";
+import { LuCalendar, LuMoreHorizontal } from "react-icons/lu";
+import YourBalance from "./yourbalance";
+
+export default function InventoryDetails() {
+	return (
+		<div className="border-2 border-slate-800 rounded-2xl">
+			<div className="flex p-6">
+				<div className="py-3 pr-4 mr-auto">
+					<p className="text-base font-bold">Inventory details</p>
+				</div>
+				<div className="p-2 h-11 w-11 border-2 ml-2 border-slate-800 rounded-full text-center">
+					<LuCalendar className="h-5 w-5 mb-1 text-gray-400 inline" />
+				</div>
+				<div className="p-2 h-11 w-11 border-2 ml-2 border-slate-800 rounded-full text-center">
+					<LuMoreHorizontal className="h-5 w-5 mb-1 text-gray-400 inline" />
+				</div>
+			</div>
+
+			<div className="px-6">
+				<YourBalance />
+			</div>
+		</div>
+	);
+}
