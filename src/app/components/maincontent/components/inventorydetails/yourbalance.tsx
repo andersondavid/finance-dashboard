@@ -3,7 +3,7 @@ import { LuArrowRight } from "react-icons/lu";
 
 export default function YourBalance() {
 	return (
-		<div className="w-full h-24 flex">
+		<div className="w-full h-24 flex px-6">
 			<div className="bg-gray-200 w-1/2 rounded-l-2xl p-4">
 				<p className=" text-neutral-900 text-sm">Your balance</p>
 				<h1 className="text-neutral-900 font-extrabold text-xl">$45,50</h1>
