@@ -7,7 +7,7 @@ export default function HeaderMainCards() {
 			<div className="py-3 pr-4 mr-auto">
 				<p className="text-base font-bold">
 					Cards
-					<span className="bg-slate-700 px-1 rounded-sm text-xs inline-block">
+					<span className="bg-slate-700 p-1 px-2 rounded-md text-xs inline-block ml-2">
 						2
 					</span>
 				</p>
