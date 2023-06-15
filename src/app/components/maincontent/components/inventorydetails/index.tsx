@@ -3,6 +3,7 @@ import YourBalance from "./yourbalance";
 import HeaderInventoryDetails from "./headerinventorydetails";
 import HeaderMainCards from "./headermaincards";
 import CardsList from "./cardslist";
+import CardStats from "./cardsstats";
 
 export default function InventoryDetails() {
 	return (
@@ -11,6 +12,7 @@ export default function InventoryDetails() {
 			<YourBalance />
 			<HeaderMainCards />
 			<CardsList />
+			<CardStats />
 		</div>
 	);
 }
