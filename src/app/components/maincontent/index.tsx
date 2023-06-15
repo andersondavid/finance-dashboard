@@ -1,6 +1,7 @@
 import React from "react";
 import MainHeader from "./components/mainheader";
 import InventoryDetails from "./components/inventorydetails";
+import Transactions from "./components/transactions";
 
 export default function MainContent() {
 	return (
@@ -8,6 +9,7 @@ export default function MainContent() {
 			<div className="max-w-screen-xl m-auto">
 				<MainHeader />
 				<InventoryDetails />
+				<Transactions />
 			</div>
 		</div>
 	);
