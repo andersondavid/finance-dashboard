@@ -4,7 +4,7 @@ import { LuPlus } from "react-icons/lu";
 
 export default function CardsList() {
 	return (
-		<div className="overflow-x-scroll">
+		<div className="overflow-x-scroll scrollbar-hide">
 			<div className="px-6 gap-6 flex flex-wrap w-max whitespace-nowrap">
 				<div className="w-80">
 					<Card />
