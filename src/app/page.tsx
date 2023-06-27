@@ -14,7 +14,7 @@ export default function Home() {
 			></span>
 			<SideBar sideBarOpen={sideBarOpen} />
 			<MainContent setSideBarOpen={setSideBarOpen} />
-			{/* <SideBarRight /> */}
+			<SideBarRight />
 		</main>
 	);
 }

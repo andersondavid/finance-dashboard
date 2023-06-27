@@ -1,7 +1,11 @@
-import React from "react";
-import { LuMail, LuMessagesSquare, LuSearch } from "react-icons/lu";
+import React, { Dispatch } from "react";
+import { LuMail, LuMenu, LuMessagesSquare, LuSearch } from "react-icons/lu";
 
-export default function MainHeader() {
+export default function MainHeader({
+	setSideBarOpen,
+}: {
+	setSideBarOpen: Dispatch<boolean>;
+}) {
 	return (
 		<div className="justify-between my-8 sm:flex">
 			<div>
@@ -10,6 +14,11 @@ export default function MainHeader() {
 			</div>
 
 			<div className="flex mt-6 sm:mt-0">
+				<div className="lg:hidden py-1 sm:fixed left-4 top-4">
+					<button onClick={() => setSideBarOpen(true)}>
+						<LuMenu className="w-9 h-9" />
+					</button>
+				</div>
 				<div className="flex ml-auto p-2 px-3 h-11 w-48 border-2 border-gray-800 rounded-full">
 					<input
 						type="text"
