@@ -3,14 +3,14 @@ import { LuMail, LuMessagesSquare, LuSearch } from "react-icons/lu";
 
 export default function MainHeader() {
 	return (
-		<div className="flex justify-between my-8">
+		<div className="justify-between my-8 sm:flex">
 			<div>
 				<h3 className="text-sky-100">Welcome</h3>
 				<h1 className="text-3xl font-bold text-sky-100">Dashboard</h1>
 			</div>
 
-			<div className="flex">
-				<div className="flex p-2 px-3 h-11 w-48 border-2 border-gray-800 rounded-full">
+			<div className="flex mt-6 sm:mt-0">
+				<div className="flex ml-auto p-2 px-3 h-11 w-48 border-2 border-gray-800 rounded-full">
 					<input
 						type="text"
 						className="w-full bg-transparent"
